@@ -1,4 +1,4 @@
 //update a document
-db.my_db.update({"name" : "Holberton school"},
+db.school.update({"name" : "Holberton school"},
   {$set: {"name": "Holberton school"}, {"address": "972 mission street"}},
   {multi: true})
