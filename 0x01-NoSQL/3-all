@@ -1,0 +1,2 @@
+//list all documents
+db.my_db.find()
